@@ -671,11 +671,30 @@ else if (a == newWord[randomNumber] && g3counter ==4) {
         <li>
           <div class="menu" align="center"><a href="#page24">Games</a> </div>
         </li>
+        <li>
+          <div class="menu" align="center"><a href="#page0a" data-rel="dialog">Share this App!</a> </div>
+        </li>
 	  </ul>		
   </div>
 	<div data-role="footer">
 		<h4></h4>
 	</div>
+</div>
+
+<div data-role="page" id="page0a" data-theme="d">
+<div data-role="header">
+   <br/>
+   <br/>
+   <br/>
+  <span>Scan this to download your own app!</span>
+   <br/>
+   <br/>
+   <br/>
+  <img src="chart.png" width="232" height="232" alt="qrcode">
+  <br/>
+   <br/>
+   <br/>
+   <br/>
 </div>
 
 <div id="page2" data-role="page" data-theme="b">
@@ -1762,7 +1781,6 @@ else if (a == newWord[randomNumber] && g3counter ==4) {
     <h1>Scrambler</h1>
   </div>
   <div data-role="content" data-theme="b">  
- 	<br/>
     <div align="center">
       <table width="166" border="2" cellpadding="0">
         <tr>
@@ -1772,10 +1790,7 @@ else if (a == newWord[randomNumber] && g3counter ==4) {
           <th height="62" bgcolor="#FFFFFF" id="G3score" style="font-size: xx-large" scope="col"></th>
         </tr>
   	   </table>
-    </div>
-    
-    <br/>
-       
+    </div>   
     <div align="center">
       <button onClick="scramble();" data-theme="b" data-inline=true>New Word</button>   
       <table width="300" height="95" border="1" cellpadding="0" data-inline=true>
@@ -1783,8 +1798,6 @@ else if (a == newWord[randomNumber] && g3counter ==4) {
           <th width="317" bgcolor="#FFFFFF" id="scrambled" style="font-size: xx-large" scope="col"></th>
         </tr>
       </table>
-      
-      <br/>
     </div>
     <div>
       <div align="left">
